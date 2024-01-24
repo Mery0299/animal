@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background: url("https://img.freepik.com/premium-vector/seamless-pattern-with-colorful-dog-paws-cute-and-childish-design-for-fabric-textile-wallpaper-be_197792-2251.jpg?w=740"); 
+	padding:100px 0;
+}
+h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 45px;
+	font-weight: bold;
+	color: darksalmon;
+}
+
+li{
+	font-size: 13,5px;
+	color: rgb(0, 0, 0);
+	margin: 5px 23px 0px;
+	line-height: 25px; /* интервал между строк отрегулировать */
+
+}
+
+.dog{
+	--margin:0px;
+	--padding:0px;
+	max-width: 50%;
+	height:auto;
+
+}
+
+.dogi{
+
+	max-width: 80%;
+	height: auto;
+	margin: 10px auto 20px;
+    display: block;
+
+}
+.text{
+	font-weight: bolder;
+	font-style: italic;
+}
+.container{
+	width: 800px;
+	min-height: 800px;
+
+	border:10px solid #fff;
+	margin:0 auto;
+	background: #fff;
+}
+
+.header{
+	display: flex;
+	height: 150px;
+
+}   
+
+.title-block{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height:100%;
+	font-size: 30px;
+	background-color: rgb(255 255 255);
+	 color:white;
+	 margin-right: 5px;
+
+}
+.title-block::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.3;
+
+}
+
+
+.title {
+	position: relative;
+	z-index: 1;
+}
+
+.userpic{
+	display: flex;
+	height:100%;
+	width: 20%;
+    background: url("http://papik.pro/uploads/posts/2022-01/1642366653_55-papik-pro-p-korgi-klipart-56.jpg")
+    no-repeat center center/cover;
+
+}
+
+.nav ul{
+	display: flex;
+	background: rgb(230,230,230);
+	margin: 10px 0px;
+}
+
+.nav li{
+
+}
+
+.nav li a{
+	display: flex;
+	padding: 20px;
+	text-decoration:none;
+	color: #404040;
+	font-weight: bold;
+	border-right:1px solid #d1d1d1;
+	transition: background .3s ease;
+
+}
+
+.nav li a:hover {
+    background: rgb(196, 196, 196);
+}
+.content-wrapper{
+	display: flex;
+}
+.content{
+	width: 80%;
+	padding: 20px;
+}
+.content p {
+	line-height: 25px; /* интервал между строк отрегулировать */
+}
+
+A {
+text-decoration: none;
+}
+
+.footer{
+     
+	text-align: center;
+}
